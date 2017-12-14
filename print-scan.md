@@ -1,15 +1,15 @@
-##OPERACJE  WEJŚCIA / WYJŚCIA
+#OPERACJE  WEJŚCIA / WYJŚCIA
 ---
 
-###Funkcja: **printf()** 
-biblioteka: **<stdio.h>** 
+##Funkcja: **printf()** 
+<p>biblioteka: **<stdio.h>** 
 wysyła sformatowane dane do standardowego strumienia wyjściowego (stdout)
 
 __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
 
 _*tekst sterujący*_ - jest to stała łańcuchowa (w cudzysłowach) zawierająca:  
 --zwykłe znaki (które są po prostu kopiowane na ekran)
---kody formatujące kolejnych argumentów: 
+--kody formatujące kolejnych argumentów:</p>  
 |Parametr|Opis|
 |:-----------:|------|
 | **%c**    | − pojedynczy znak |
