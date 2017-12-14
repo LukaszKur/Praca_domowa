@@ -9,8 +9,9 @@ wysyła sformatowane dane do standardowego strumienia wyjściowego (stdout)
 __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
 
 _*tekst sterujący*_ - jest to stała łańcuchowa (w cudzysłowach) zawierająca:  
-  <br>-zwykłe znaki (które są po prostu kopiowane na ekran)</br>
-  <br>-kody formatujące kolejnych argumentów:</br></p>  
+-zwykłe znaki (które są po prostu kopiowane na ekran)
+-kody formatujące kolejnych argumentów:
+</p>
 
 Tekst sterujacy |Opis                                                       
 :--------------:|------------------------------------------------------------
@@ -39,7 +40,8 @@ int main( )
 ```
 <p>
 efekt na ekranie - **Wynik obliczen 10 + 20 = 30.000000** 
-Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %**X**d     %**X.X**f 
+Aby określić ilość drukowanych cyfr do kodu 
+formatującego można dodać kody długości:   %**X**d     %**X.X**f 
 </p>
 Przykład |Opis                                                       
 :-------:|------------------------------------------------------------
@@ -47,11 +49,11 @@ Przykład |Opis
 %10f     | − liczba rzeczywista na 10 pozycjach                       
 %10.2f   | − liczba rzeczywista na 10 pozycjach, 2 cyfry po przecinku 
 
-
 Funkcja: **scanf()**
 ---
 <p>
-odczytuje dane ze standardowego strumienia wejściowego (stdin) w/g zadanego formatu i zapamiętuje je pod zadanymi adresami pamięci 
+odczytuje dane ze standardowego strumienia wejściowego (stdin) 
+w/g zadanego formatu i zapamiętuje je pod zadanymi adresami pamięci 
  
 **int   scanf** ( tekst_sterujący , adres_1 , adres_2 ,  . . .  ) ; 
 
@@ -73,7 +75,7 @@ Parametr           |Opis
 <p>
 **&**  −   operator adresowania (zwraca adres zmiennej podanej po operatorze) 
 </p>
-_przykład:_
+*przykład:*
 ```
 #include <stdio.h>  
 int main( ) 
@@ -85,7 +87,8 @@ int main( )
 	scanf( ”%d”  ,  &x  );   
 	printf( ”Podaj jedna liczbe rzeczywista i jeden znak: ”);   
 	scanf( ”%lf  %c”  ,  &y ,  &znak  );  
-} 
+}
+
 ```
 <p>
 Wydruk:       **Podaj jedna liczbe calkowita:**
