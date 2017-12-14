@@ -11,20 +11,20 @@ __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
 _*tekst sterujący*_ - jest to stała łańcuchowa (w cudzysłowach) zawierająca:  
   -zwykłe znaki (które są po prostu kopiowane na ekran)
   -kody formatujące kolejnych argumentów:</p>  
-<p>
+
 Parametr |Opis                                              
-:-------:|--------------------------------------------------
+:-------:|------------------------------------------------------------
 **%c**   | − pojedynczy znak                                
 **%s**   | − łańcuch znaków                                 
 **%d**   | − liczba dziesiętna ze znakiem                   
 **%f**   | − liczba zmiennoprzecinkowa (notacja dziesiętna) 
-|**%e**     | − liczba zmiennoprzecinkowa (notacja wykładnicza) |
-|**%g**     | − liczba zmiennoprzecinkowa (krótszy z formatów **%f %e) **|
-|**%u**     | − liczba dziesiętna bez znaku |
-|**%x**     | − liczba w kodzie szesnastkowym (bez znaku) |
-|**%o**     | − liczba w kodzie ósemkowym (bez znaku) |
-|**1**        | − przedrostek (long) stosowany przed:  **d  u  x  o**|
-</p>
+**%e**   | − liczba zmiennoprzecinkowa (notacja wykładnicza)
+**%g**   | − liczba zmiennoprzecinkowa (krótszy z formatów **%f %e**)
+**%u**   | − liczba dziesiętna bez znaku 
+**%x**   | − liczba w kodzie szesnastkowym (bez znaku) 
+**%o**   | − liczba w kodzie ósemkowym (bez znaku) 
+**1**    | − przedrostek (long) stosowany przed:  **d  u  x  o**
+
 *przykład: *
  ```
 >#include <stdio.h>  
