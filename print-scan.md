@@ -11,6 +11,7 @@ __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
 _*tekst sterujący*_ - jest to stała łańcuchowa (w cudzysłowach) zawierająca:  
   -zwykłe znaki (które są po prostu kopiowane na ekran)
   -kody formatujące kolejnych argumentów:</p>  
+<p>
 Parametr |Opis                                              
 :-------:|--------------------------------------------------
 **%c**   | − pojedynczy znak                                
@@ -23,7 +24,7 @@ Parametr |Opis
 |**%x**     | − liczba w kodzie szesnastkowym (bez znaku) |
 |**%o**     | − liczba w kodzie ósemkowym (bez znaku) |
 |**1**        | − przedrostek (long) stosowany przed:  **d  u  x  o**|
-
+</p>
 *przykład: *
  ```
 >#include <stdio.h>  
