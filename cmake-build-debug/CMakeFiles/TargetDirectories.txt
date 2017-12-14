@@ -1,0 +1,3 @@
+/home/lukasz/Pulpit/Praca domowa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lukasz/Pulpit/Praca domowa/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lukasz/Pulpit/Praca domowa/cmake-build-debug/CMakeFiles/Praca_domowa.dir
