@@ -40,8 +40,9 @@ int main( )
 ```
 <p>
 efekt na ekranie - <strong>Wynik obliczen 10 + 20 = 30.000000</strong><br> 
-<br>Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %<strong>X</strong>d     %<strong>X.X</strong>f 
+Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %<strong>X</strong>d     %<strong>X.X</strong>f 
 </p>
+
 Przykład |Opis                                                       
 :-------:|------------------------------------------------------------
 %4d      | − liczba dziesiętna na czterech pozycjach                  
@@ -58,6 +59,7 @@ odczytuje dane ze standardowego strumienia wejściowego (stdin)<br>w/g zadanego 
 _*tekst sterujący*_ - jest to stała łańcuchowa (w podwójnych cudzysłowach) zawierająca polecenia jak traktować kolejne dane wczytywane ze strumienia (jakie typy zmiennych są pod adresami adres_1, adres_2, ... )<br><br>
 Kody formatujące (podobne jak dla **printf()** ): 
 </p>
+
 Parametr           |Opis                                        
 :-----------------:|------------------------------------------------------------
 **%c**             | − pojedynczy znak                                         
