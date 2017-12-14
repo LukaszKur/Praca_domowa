@@ -39,7 +39,7 @@ int main( )
 }
 ```
 <p>
-efekt na ekranie - **Wynik obliczen 10 + 20 = 30.000000** 
+efekt na ekranie - <em>Wynik obliczen 10 + 20 = 30.000000</em> 
 Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %**X**d     %**X.X**f 
 </p>
 
