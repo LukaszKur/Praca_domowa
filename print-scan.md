@@ -9,8 +9,8 @@ wysyła sformatowane dane do standardowego strumienia wyjściowego (stdout)
 __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
 
 _*tekst sterujący*_ - jest to stała łańcuchowa (w cudzysłowach) zawierająca:  
--zwykłe znaki (które są po prostu kopiowane na ekran)
--kody formatujące kolejnych argumentów:
+-zwykłe znaki (które są po prostu kopiowane na ekran)<br>
+-kody formatujące kolejnych argumentów:<br>
 </p>
 
 Tekst sterujacy |Opis                                                       
@@ -40,9 +40,9 @@ int main( )
 ```
 <p>
 efekt na ekranie - **Wynik obliczen 10 + 20 = 30.000000** 
-Aby określić ilość drukowanych cyfr do kodu 
-formatującego można dodać kody długości:   %**X**d     %**X.X**f 
+Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %**X**d     %**X.X**f 
 </p>
+
 Przykład |Opis                                                       
 :-------:|------------------------------------------------------------
 %4d      | − liczba dziesiętna na czterech pozycjach                  
@@ -52,14 +52,14 @@ Przykład |Opis
 Funkcja: **scanf()**
 ---
 <p>
-odczytuje dane ze standardowego strumienia wejściowego (stdin) 
-w/g zadanego formatu i zapamiętuje je pod zadanymi adresami pamięci 
+odczytuje dane ze standardowego strumienia wejściowego (stdin)<br>w/g zadanego formatu i zapamiętuje je pod zadanymi adresami pamięci 
  
 **int   scanf** ( tekst_sterujący , adres_1 , adres_2 ,  . . .  ) ; 
 
-_*tekst sterujący*_ - jest to stała łańcuchowa (w podwójnych cudzysłowach) zawierająca polecenia jak traktować kolejne dane wczytywane ze strumienia (jakie typy zmiennych są pod adresami adres_1, adres_2, ... )
+_*tekst sterujący*_ - jest to stała łańcuchowa (w podwójnych cudzysłowach) zawierająca polecenia jak traktować kolejne dane wczytywane ze strumienia (jakie typy zmiennych są pod adresami adres_1, adres_2, ... )<br>
 Kody formatujące (podobne jak dla **printf()** ): 
 </p>
+
 Parametr           |Opis                                        
 :-----------------:|------------------------------------------------------------
 **%c**             | − pojedynczy znak                                         
@@ -72,9 +72,9 @@ Parametr           |Opis
 **1**              | − przedrostek stosowany przed:  **d  u  x  o**  (long int) 
 **1**              | − przedrostek stosowany przed:  **f  e**  (double)        
 **L**              | − przedrostek stosowany przed:  **f  e**  (long double)   
-<p>
+
 **&**  −   operator adresowania (zwraca adres zmiennej podanej po operatorze) 
-</p>
+
 *przykład:*
 ```
 #include <stdio.h>  
@@ -88,12 +88,11 @@ int main( )
 	printf( ”Podaj jedna liczbe rzeczywista i jeden znak: ”);   
 	scanf( ”%lf  %c”  ,  &y ,  &znak  );  
 }
-
 ```
 <p>
-Wydruk:       **Podaj jedna liczbe calkowita:**
-OdczyT	      **123 ↵**
-Wydruk:       **Podaj jedna liczbe rzeczywista i jeden znak: **
-Odczyt        **456.789  a ↵**
-Wynik wczytywania:  x == **123**,  y == **456.789**,  znak == **’a’**
+Wydruk:       **Podaj jedna liczbe calkowita:**<br>
+OdczyT	      **123 ↵**<br>
+Wydruk:       **Podaj jedna liczbe rzeczywista i jeden znak: **<br>
+Odczyt        **456.789  a ↵**<br>
+Wynik wczytywania:  x == **123**,  y == **456.789**,  znak == **’a’**<br>
 </p>
