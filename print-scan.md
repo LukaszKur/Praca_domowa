@@ -1,8 +1,9 @@
-#OPERACJE  WEJŚCIA / WYJŚCIA
----
+OPERACJE  WEJŚCIA / WYJŚCIA
+===
 
-##Funkcja: **printf()** 
-<p>biblioteka: **<stdio.h>** 
+Funkcja: **printf()** 
+---
+<p>biblioteka: <stdio.h> 
 wysyła sformatowane dane do standardowego strumienia wyjściowego (stdout)
 
 __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
