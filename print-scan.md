@@ -9,8 +9,8 @@ wysyła sformatowane dane do standardowego strumienia wyjściowego (stdout)
 __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
 
 _*tekst sterujący*_ - jest to stała łańcuchowa (w cudzysłowach) zawierająca:  
-  -zwykłe znaki (które są po prostu kopiowane na ekran)
-  -kody formatujące kolejnych argumentów:</p>  
+  -zwykłe znaki (które są po prostu kopiowane na ekran)</p>
+<p>  -kody formatujące kolejnych argumentów:</p>  
 
 Parametr |Opis                                              
 :-------:|------------------------------------------------------------
@@ -25,7 +25,7 @@ Parametr |Opis
 **%o**   | − liczba w kodzie ósemkowym (bez znaku) 
 **1**    | − przedrostek (long) stosowany przed:  **d  u  x  o**
 
-*przykład: *
+*przykład:*
  ```
 >#include <stdio.h>  
 >int main( ) 
