@@ -3,20 +3,20 @@ OPERACJE  WEJŚCIA / WYJŚCIA
 
 Funkcja: **printf()** 
 ---
-<p>biblioteka: <stdio.h> 
+<p> 
 wysyła sformatowane dane do standardowego strumienia wyjściowego (stdout)
 
 __int   printf__( tekst_sterujący , argument_1 , argument_2 ,  . . .  ) ;
 
 _*tekst sterujący*_ - jest to stała łańcuchowa (w cudzysłowach) zawierająca:  
---zwykłe znaki (które są po prostu kopiowane na ekran)
---kody formatujące kolejnych argumentów:</p>  
-|Parametr|Opis|
-|:-----------:|------|
-| **%c**    | − pojedynczy znak |
-|**%s**     | − łańcuch znaków |
-|**%d**     | − liczba dziesiętna ze znakiem |
-|**%f**      | − liczba zmiennoprzecinkowa (notacja dziesiętna) |
+  -zwykłe znaki (które są po prostu kopiowane na ekran)
+  -kody formatujące kolejnych argumentów:</p>  
+Parametr |Opis                                              
+:-------:|--------------------------------------------------
+**%c**   | − pojedynczy znak                                
+**%s**   | − łańcuch znaków                                 
+**%d**   | − liczba dziesiętna ze znakiem                   
+**%f**   | − liczba zmiennoprzecinkowa (notacja dziesiętna) 
 |**%e**     | − liczba zmiennoprzecinkowa (notacja wykładnicza) |
 |**%g**     | − liczba zmiennoprzecinkowa (krótszy z formatów **%f %e) **|
 |**%u**     | − liczba dziesiętna bez znaku |
