@@ -37,7 +37,8 @@ int main( )
 	s = x + y; 
 	printf( ”%s obliczen %d + %ld = %f”  ,  ”Wynik”  ,  x  ,  y  ,  s  );  
 }
-```<p>
+```
+<p>
 efekt na ekranie - <strong>Wynik obliczen 10 + 20 = 30.000000</strong><br> 
 <br>Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %<strong>X</strong>d     %<strong>X.X</strong>f 
 </p>
