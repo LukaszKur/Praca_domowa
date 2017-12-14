@@ -39,8 +39,8 @@ int main( )
 }
 ```
 <p>
-efekt na ekranie - <em>Wynik obliczen 10 + 20 = 30.000000</em> 
-Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %**X**d     %**X.X**f 
+efekt na ekranie - <strong>Wynik obliczen 10 + 20 = 30.000000</strong><br> 
+Aby określić ilość drukowanych cyfr do kodu formatującego można dodać kody długości:   %<strong>X</strong>d     %<strong>X.X</strong>f 
 </p>
 
 Przykład |Opis                                                       
@@ -56,7 +56,7 @@ odczytuje dane ze standardowego strumienia wejściowego (stdin)<br>w/g zadanego 
  
 **int   scanf** ( tekst_sterujący , adres_1 , adres_2 ,  . . .  ) ; 
 
-_*tekst sterujący*_ - jest to stała łańcuchowa (w podwójnych cudzysłowach) zawierająca polecenia jak traktować kolejne dane wczytywane ze strumienia (jakie typy zmiennych są pod adresami adres_1, adres_2, ... )<br>
+_*tekst sterujący*_ - jest to stała łańcuchowa (w podwójnych cudzysłowach) zawierająca polecenia jak traktować kolejne dane wczytywane ze strumienia (jakie typy zmiennych są pod adresami adres_1, adres_2, ... )<br><br>
 Kody formatujące (podobne jak dla **printf()** ): 
 </p>
 
@@ -90,9 +90,9 @@ int main( )
 }
 ```
 <p>
-Wydruk:       **Podaj jedna liczbe calkowita:**<br>
-OdczyT	      **123 ↵**<br>
-Wydruk:       **Podaj jedna liczbe rzeczywista i jeden znak: **<br>
-Odczyt        **456.789  a ↵**<br>
-Wynik wczytywania:  x == **123**,  y == **456.789**,  znak == **’a’**<br>
+Wydruk:       <strong>Podaj jedna liczbe calkowita:</strong><br>
+OdczyT	      <strong>123 ↵</strong><br>
+Wydruk:       <strong>Podaj jedna liczbe rzeczywista i jeden znak:</strong><br>
+Odczyt        <strong>456.789  a ↵</strong><br>
+Wynik wczytywania:  x == <strong>123</strong>,  y == <strong>456.789</strong,  znak == <strong>’a’</strong><br>
 </p>
