@@ -3,20 +3,23 @@ SYSTEMY LICZBOWE
 System dziesiętny (decymalny)
 ---
 <p>
-Ludzie posługują się najczęściej pozycyjnym **systemem dziesiętnym** 
-(ang. decimal — decymalny), w którym podstawę stanowi liczba **10**, 
-a do zapisu liczb używa się dziesięciu cyfr arabskich: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. 
+Ludzie posługują się najczęściej pozycyjnym <strong>systemem dziesiętnym</strong>
+(ang. decimal — decymalny), w którym podstawę stanowi liczba <strong>10</strong>, 
+a do zapisu liczb używa się dziesięciu cyfr arabskich:<strong> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.</strong> 
 Jeśli spróbujemy rozpisać dowolną liczbę dziesiętną z wykorzystaniem podanego przed chwilą wzoru, 
 uzyskamy zapis wielomianowy:
 </p>
 
 <img src="https://github.com/LukaszKur/Praca_domowa/blob/master/Rysunek1.png" alt="wielomian" title="Zapis wielomianowy"/>
-<p>
+<p><em>
 Każda cyfra w ciągu została ponumerowana, począwszy od prawej strony. Pozycji jedynek przyporządkowano 0, 
 dziesiątek — 1, a setek — 2. Następnie każda cyfra z ciągu została pomnożona przez wagę, 
 którą stanowi podstawa 10 podniesiona do potęgi równej pozycji.
-</p>
+</em></p>
+---
 System dwójkowy (binarny)
+---
+<p>
 Cyfrowe urządzenia elektroniczne wykorzystują dwójkowy 
 (ang. binary — binarny) pozycyjny system liczbowy, w którym podstawą jest liczba 2, 
 a liczby zapisuje się za pomocą dwóch cyfr arabskich: 0, 1. 
@@ -24,7 +27,7 @@ Zapis liczby dwójkowej jest dłuższy niż dziesiętnej, jednak stosowanie tylk
 ułatwia budowanie układów półprzewodnikowych, w których w uproszczeniu np. 1 oznacza przepływ prądu, 
 a 0 — brak przepływu. Trudno jest natomiast zbudować układ elektroniczny, 
 który wydajnie i stabilnie reprezentowałby dziesięć stanów odpowiadających cyfrom: 0, 1, 2, …, 9. 
-
+</p>
 Przykładem praktycznego zastosowania systemu binarnego może być proces 
 wyznaczania adresu sieci lub maski podsieci na podstawie adresu IP w notacji dwójkowej.
 
