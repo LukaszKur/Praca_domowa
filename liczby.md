@@ -16,37 +16,41 @@ Każda cyfra w ciągu została ponumerowana, począwszy od prawej strony. Pozycj
 dziesiątek — 1, a setek — 2. Następnie każda cyfra z ciągu została pomnożona przez wagę, 
 którą stanowi podstawa 10 podniesiona do potęgi równej pozycji.
 </em></p>
----
+
+
 System dwójkowy (binarny)
 ---
 <p>
-Cyfrowe urządzenia elektroniczne wykorzystują dwójkowy 
-(ang. binary — binarny) pozycyjny system liczbowy, w którym podstawą jest liczba 2, 
-a liczby zapisuje się za pomocą dwóch cyfr arabskich: 0, 1. 
+Cyfrowe urządzenia elektroniczne wykorzystują <strong>dwójkowy</strong> 
+(ang. binary — binarny) pozycyjny system liczbowy, w którym podstawą jest liczba <strong>2</strong>, 
+a liczby zapisuje się za pomocą dwóch cyfr arabskich: <strong>0, 1.</strong> 
 Zapis liczby dwójkowej jest dłuższy niż dziesiętnej, jednak stosowanie tylko dwóch cyfr 
 ułatwia budowanie układów półprzewodnikowych, w których w uproszczeniu np. 1 oznacza przepływ prądu, 
 a 0 — brak przepływu. Trudno jest natomiast zbudować układ elektroniczny, 
 który wydajnie i stabilnie reprezentowałby dziesięć stanów odpowiadających cyfrom: 0, 1, 2, …, 9. 
 </p>
+<p><strong>
 Przykładem praktycznego zastosowania systemu binarnego może być proces 
 wyznaczania adresu sieci lub maski podsieci na podstawie adresu IP w notacji dwójkowej.
+</p></strong>
 
-Liczba naturalna lB w systemie dwójkowym ma postać ai … a1 a0, gdzie ai … 10 przyjmuje wartość 1 lub 0, 
+Liczba naturalna l(B) w systemie dwójkowym ma postać <strong>ai … a1 a0, gdzie ai … 10 przyjmuje wartość 1 lub 0</strong>, 
 np. 1100B (jeden jeden zero zero, nie tysiąc sto!).
+
 Aby dokonać konwersji liczby dwójkowej na postać dziesiętną, 
-należy użyć zapisu wielomianowego: p = 2, ai ∈ {0, 1},
-10101B = 14 03 12 01 10 = 1*24+0*23+1*22+0*21+1*20 =
-= 1*16+0*8+1*4+0*2+1*1 = 16+4+1 = 21D
+należy użyć zapisu wielomianowego:<br> p = 2, ai ∈ {0, 1},
+10101B = 14 03 12 01 10 = 1*24+0*23+1*22+0*21+1*20 =<br>
+= 1*16+0*8+1*4+0*2+1*1 = 16+4+1 = 21D<br>
 Kolejne cyfry w liczbie binarnej należy ponumerować, począwszy od pierwszej (0) z prawej strony. 
 Następnie każdą cyfrę mnoży się przez wagę otrzymaną z podstawy podniesionej do potęgi równej pozycji. 
 Po przemnożeniu cyfr przez wagi należy je zsumować. Otrzymana liczba dziesiętna jest odpowiednikiem liczby binarnej. 
-Liczba zapisana w systemie dwójkowym jako 10101B odpowiada 21D w systemie dziesiętnym.
+Liczba zapisana w systemie dwójkowym jako 10101B odpowiada 21D w systemie dziesiętnym.<br>
 Aby dokonać zamiany liczby dziesiętnej na postać binarną, należy wykonać cykliczne dzielenie z resztą. 
 Dzielną jest liczba dziesiętna, a dzielnikiem — podstawa systemu binarnego, czyli 2. 
 Wynik z pierwszego dzielenia ponownie jest dzielony przez 2, i tak aż do uzyskania 0. 
 Liczba binarna powstaje na bazie reszt zapisanych w odwrotnej kolejności:
-
-
+</p>
+<img src="https://github.com/LukaszKur/Praca_domowa/blob/master/Rysunek2.png" alt="wielomian2" title="Zapis wielomianowy2"/>
 Po przekształceniu dziesiętnej liczby 25D uzyskujemy odpowiednik binarny 11001B.
 W celu szybkiego przekształcania liczb binarnych na postać dziesiętną dobrze jest 
 zapamiętać krotności poszczególnych wag systemu binarnego zamieszczone poniżej.
