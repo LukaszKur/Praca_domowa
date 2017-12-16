@@ -34,18 +34,21 @@ Przykładem praktycznego zastosowania systemu binarnego może być proces
 wyznaczania adresu sieci lub maski podsieci na podstawie adresu IP w notacji dwójkowej.
 </p></strong>
 
-Liczba naturalna l(B) w systemie dwójkowym ma postać <strong>ai … a1 a0, gdzie ai … 10 przyjmuje wartość 1 lub 0</strong>, 
+Liczba naturalna 1(B) w systemie dwójkowym ma postać <strong>ai … a1 a0, gdzie ai … 10 przyjmuje wartość 1 lub 0</strong>,<br> 
 np. 1100B (jeden jeden zero zero, nie tysiąc sto!).
 
 Aby dokonać konwersji liczby dwójkowej na postać dziesiętną, 
-należy użyć zapisu wielomianowego:<br> p = 2, ai ∈ {0, 1},
-10101B = 14 03 12 01 10 = 1*24+0*23+1*22+0*21+1*20 =<br>
-= 1*16+0*8+1*4+0*2+1*1 = 16+4+1 = 21D<br>
-Kolejne cyfry w liczbie binarnej należy ponumerować, począwszy od pierwszej (0) z prawej strony. 
+należy użyć zapisu wielomianowego:<br>
+``` 
+p = 2, ai ∈ {0, 1},
+10101B = 14 03 12 01 10 = 1*24+0*23+1*22+0*21+1*20 =
+= 1*16+0*8+1*4+0*2+1*1 = 16+4+1 = 21D
+```
+<br>Kolejne cyfry w liczbie binarnej należy ponumerować, począwszy od pierwszej (0) z prawej strony. 
 Następnie każdą cyfrę mnoży się przez wagę otrzymaną z podstawy podniesionej do potęgi równej pozycji. 
 Po przemnożeniu cyfr przez wagi należy je zsumować. Otrzymana liczba dziesiętna jest odpowiednikiem liczby binarnej. 
 Liczba zapisana w systemie dwójkowym jako 10101B odpowiada 21D w systemie dziesiętnym.<br>
-Aby dokonać zamiany liczby dziesiętnej na postać binarną, należy wykonać cykliczne dzielenie z resztą. 
+<br>Aby dokonać zamiany liczby dziesiętnej na postać binarną, należy wykonać cykliczne dzielenie z resztą. 
 Dzielną jest liczba dziesiętna, a dzielnikiem — podstawa systemu binarnego, czyli 2. 
 Wynik z pierwszego dzielenia ponownie jest dzielony przez 2, i tak aż do uzyskania 0. 
 Liczba binarna powstaje na bazie reszt zapisanych w odwrotnej kolejności:
