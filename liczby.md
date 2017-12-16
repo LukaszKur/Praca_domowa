@@ -10,7 +10,7 @@ Jeśli spróbujemy rozpisać dowolną liczbę dziesiętną z wykorzystaniem poda
 uzyskamy zapis wielomianowy:
 </p>
 
-<img src="/home/lukasz/Pulpit/Praca_domowa" alt="wielomian" title="Zapis wielomianowy"/>
+<img src="https://github.com/LukaszKur/Praca_domowa/blob/master/Rysunek1.png" alt="wielomian" title="Zapis wielomianowy"/>
 <p>
 Każda cyfra w ciągu została ponumerowana, począwszy od prawej strony. Pozycji jedynek przyporządkowano 0, 
 dziesiątek — 1, a setek — 2. Następnie każda cyfra z ciągu została pomnożona przez wagę, 
