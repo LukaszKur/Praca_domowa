@@ -51,21 +51,12 @@ Liczba binarna powstaje na bazie reszt zapisanych w odwrotnej kolejności:
 
 
 <img src="https://github.com/LukaszKur/Praca_domowa/blob/master/Rysunek2.jpg" alt="wielomian2" title="Zapis wielomianowy2"/>
+
 Po przekształceniu dziesiętnej liczby 25D uzyskujemy odpowiednik binarny 11001B.
 W celu szybkiego przekształcania liczb binarnych na postać dziesiętną dobrze jest 
-zapamiętać krotności poszczególnych wag systemu binarnego zamieszczone poniżej.
+zapamiętać krotności poszczególnych wag systemu binarnego zamieszczone poniżej:
 
-210
-29
-28
-27
-26
-25
-24
-23
-22
-21
-20
+```
 1024
 512
 256
@@ -77,64 +68,45 @@ zapamiętać krotności poszczególnych wag systemu binarnego zamieszczone poni�
 4
 2
 1
+```
 
-Dzięki temu w prosty sposób możemy przekształcić liczbę binarną, sumując odpowiedniki dziesiętne wszędzie tam, 
-gdzie w ciągu dwójkowym występują jedynki:
-
-64
-32
-16
-8
-4
-2
-1
-1
-1
-0
-0
-1
-0
-1B
-64
-32
-–
-–
-4
-–
-1
-
-64 + 32 + 4 + 1 = 101D
-
-System szesnastkowy (heksadecymalny)
+### System szesnastkowy (heksadecymalny)
 System szesnastkowy (ang. hexadecimal — heksadecymalny) najczęściej jest wykorzystywany do uproszczonego zapisu długich liczb binarnych.
 
 Ethernetowe karty sieciowe mają 48-bitowy, unikatowy adres sprzętowy zapisany
 w postaci szesnastkowej, np. 00:50:56:C0:00:08. 
 
-Podstawę systemu heksadecymalnego stanowi 16 cyfr. Pierwsze 10 to arabskie cyfry: 0, 
-1, 2, 3, 4, 5, 6, 7, 8, 9, pozostałe 6 to pierwsze litery alfabetu łacińskiego: 
-A, B, C, D, E, F oznaczające kolejno dziesiętne: 10, 11, 12, 13, 14, 15.
+**Podstawę systemu heksadecymalnego stanowi 16 cyfr. Pierwsze 10 to arabskie cyfry:
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, pozostałe 6 to pierwsze litery alfabetu łacińskiego:
+A, B, C, D, E, F oznaczające kolejno dziesiętne: 10, 11, 12, 13, 14, 15.**
 
 
-Oprogramowanie do wyszukiwania błędów w skompilowanych plikach binarnych przekształca 
+_Oprogramowanie do wyszukiwania błędów w skompilowanych plikach binarnych przekształca 
 pierwotny zapis danych dwójkowych na krótszy, szesnastkowy, ułatwiając w ten sposób analizę kodu. 
 W systemie binarnym odpowiednik dziesiętnej liczby 15D ma aż cztery cyfry 1111B, 
-natomiast w szesnastkowym — tylko jedną FH.
+natomiast w szesnastkowym — tylko jedną FH._
 
-Liczba naturalna lH w systemie szesnastkowym ma postać: ai ... a1 a0, gdzie ai … 1 0 
-przyjmuje wartość 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F, np. 1BFH.
+Liczba naturalna lH w systemie szesnastkowym ma postać: **ai ... a1 a0**, gdzie ai … 1 0 
+przyjmuje wartość **0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F,** np. 1BFH.
+
 Chcąc dokonać konwersji liczby szesnastkowej na postać dziesiętną, powinniśmy użyć zapisu wielomianowego:
 p = 16, ai ∈ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F},
-4C5H = 42 C1 20 = 4*162 + C*161 + 2*160 = 4*256+12(C)*16+5*1 = 1221D
+
+```math
+4C5H = 4^2 C^1 2^0 = 4*16^2 + C*16^1 + 2*16^0 = 4*256+12(C)*16+5*1 = 1221D
+```
+
+
 Kolejne cyfry w liczbie heksadecymalnej należy ponumerować, począwszy od pierwszej 
 (0) z prawej strony. Następnie każdą cyfrę mnożymy przez wagę otrzymaną z podstawy (16) podniesionej do potęgi równej pozycji. 
 Po przemnożeniu cyfr przez wagi (litery należy zamienić na odpowiedniki dziesiętne) wykonujemy sumowanie. 
 Otrzymana liczba dziesiętna jest odpowiednikiem liczby szesnastkowej. Liczba zapisana w systemie szesnastkowym jako 4C5H 
 odpowiada 1221D w systemie dziesiętnym.
-Aby dokonać zamiany liczby dziesiętnej na postać szesnastkową, należy wykonać cykliczne dzielenie z resztą. 
+
+**Aby dokonać zamiany liczby dziesiętnej na postać szesnastkową, należy wykonać cykliczne dzielenie z resztą. 
 Dzielną jest liczba dziesiętna, natomiast dzielnikiem — podstawa systemu heksadecymalnego, czyli 16. Wynik uzyskany z pierwszego 
 dzielenia ponownie jest dzielony przez 16, i tak aż do uzyskania 0. Liczba szesnastkowa powstaje na bazie reszt zapisanych 
-w odwrotnej kolejności. Wartości powyżej 9 koduje się za pomocą odpowiednich cyfr-liter, np. A:
+w odwrotnej kolejności. Wartości powyżej 9 koduje się za pomocą odpowiednich cyfr-liter, np. A:**
 
 
 W celu szybkiego obliczenia reszty z dzielenia, np. 1221:16 = 76,3125, należy pomnożyć
