@@ -96,7 +96,6 @@ p = 16, ai ∈ {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F},
 4C5H = 4^2 C^1 2^0 = 4*16^2 + C*16^1 + 2*16^0 = 4*256+12(C)*16+5*1 = 1221D
 ```
 
-
 Kolejne cyfry w liczbie heksadecymalnej należy ponumerować, począwszy od pierwszej 
 (0) z prawej strony. Następnie każdą cyfrę mnożymy przez wagę otrzymaną z podstawy (16) podniesionej do potęgi równej pozycji. 
 Po przemnożeniu cyfr przez wagi (litery należy zamienić na odpowiedniki dziesiętne) wykonujemy sumowanie. 
@@ -115,62 +114,49 @@ część całkowitą wyniku, czyli 76, przez dzielnik 16. Wynik 1216 należy odj
 
 Przy konwersji liczb szesnastkowych na postać binarną i odwrotnie najprościej posłużyć się poniższą tabelą.
 
-Cyfra szesnastkowa
-Cyfra dwójkowa
-Cyfra szesnastkowa
-Cyfra dwójkowa
-0
-0000
-8
-1000
-1
-0001
-9
-1001
-2
-0010
-A
-1010
-3
-0011
-B
-1011
-4
-0100
-C
-1100
-5
-0101
-D
-1101
-6
-0110
-E
-1110
-7
-0111
-F
-1111
+|Cyfra szesnastkowa |Cyfra dwójkowa|
+|:-----------------:|:------------:|
+|0                  |0000          |
+|1                  |0001          |
+|2                  |0010          |
+|8                  |1000          |
+|3                  |0011          |
+|9                  |1001          |
+|4                  |0100          |
+|A                  |1010          |
+|5                  |0101          |
+|B                  |1011          |
+|6                  |0110          |
+|C                  |1100          |
+|7                  |0111          |
+|D                  |1101          |
+|E                  |1110          |
+|F                  |1111          |
 
-Konwersję liczby binarnej na postać szesnastkową należy rozpocząć od pogrupowania ciągu po cztery cyfry. 
+_Konwersję liczby binarnej na postać szesnastkową należy rozpocząć od pogrupowania ciągu po cztery cyfry. 
 Grupowanie rozpoczynamy od prawej strony i kontynuujemy aż do uzyskania końca liczby. 
-Jeżeli ostatnie cyfry w pogrupowanej liczbie mają mniej niż cztery znaki, należy uzupełnić puste pozycje zerami:
+Jeżeli ostatnie cyfry w pogrupowanej liczbie mają mniej niż cztery znaki, należy uzupełnić puste pozycje zerami:_
 
-Następnie, posługując się tabelą, należy wszystkie pogrupowane znaki zamienić na odpowiadające im cyfry heksadecymalne:
+<img src="https://github.com/LukaszKur/Praca_domowa/blob/master/Rysunek3.jpg" alt="wielomian3" title="Zapis wielomianowy3"/>
 
-Po dokonaniu zamiany powstaje liczba szesnastkowa 2F5D05H — prawda, że proste?
-Konwersja z liczby szesnastkowej na binarną jest jeszcze prostsza. 
-Wystarczy na podstawie tabeli zamienić cyfry heksadecymalne na czterocyfrowe ciągi binarne i połączyć 
+**Następnie, posługując się tabelą, należy wszystkie pogrupowane znaki zamienić na odpowiadające im cyfry heksadecymalne.**
+
+Po dokonaniu zamiany powstaje liczba szesnastkowa **2F5D05H**.
+Konwersja z liczby szesnastkowej na binarną.
+Na podstawie tabeli zamieniamy cyfry heksadecymalne na czterocyfrowe ciągi binarne i łaczymy 
 je w jedną liczbę:
 
 Otrzymujemy liczbę binarną 101001001011100111110000B.
 
 
-System ósemkowy (oktalny)
+### System ósemkowy (oktalny)
+
 System ósemkowy (ang. octal — oktalny) jest pozycyjnym systemem liczbowym, 
-w którym podstawę stanowi osiem kolejnych cyfr arabskich: 0, 1, 2, 3, 4, 5, 6, 7. 
-System ten jest rzadko stosowany; zastosowanie można zobaczyć w uniksowym poleceniu chmod 
+w którym podstawę stanowi osiem kolejnych cyfr arabskich: **0, 1, 2, 3, 4, 5, 6, 7**. 
+System ten jest rzadko stosowany; zastosowanie można zobaczyć w uniksowym poleceniu **chmod** 
 (służącym do zmiany uprawnień dostępu do plików i katalogów).
-Liczba naturalna lO w systemie ósemkowym ma postać: ai ... a1 a0, gdzie ai … 1 0 przyjmuje wartość 0, 1, 2, 3, 4, 5, 6, 7, np. 212O.
-Konwersję liczb ósemkowych na postać dziesiętną i odwrotnie wykonuje się analogicznie 
-jak w przykładach poświęconych systemom: binarnemu i szesnastkowemu.
+
+Liczba naturalna lO w systemie ósemkowym ma postać: **ai ... a1 a0**, gdzie ai … 1 0 przyjmuje wartość **0, 1, 2, 3, 4, 5, 6, 7**, np. 212O.
+
+_Konwersję liczb ósemkowych na postać dziesiętną i odwrotnie wykonuje się analogicznie 
+jak w przykładach poświęconych systemom: binarnemu i szesnastkowemu._
